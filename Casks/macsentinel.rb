@@ -21,10 +21,10 @@ cask "macsentinel" do
   app "MacSentinel.app"
 
   zap trash: [
-    "~/Library/Application Support/MacSentinel",
     "~/Library/Application Support/com.appsinfoway.MacScope",
-    "~/Library/Caches/digital.sentinel.MacSentinel",
+    "~/Library/Application Support/MacSentinel",
     "~/Library/Caches/com.appsinfoway.MacScope",
+    "~/Library/Caches/digital.sentinel.MacSentinel",
     "~/Library/HTTPStorages/com.appsinfoway.MacScope",
     "~/Library/Preferences/com.appsinfoway.MacScope.plist",
     "~/Library/Preferences/digital.sentinel.MacSentinel.plist",
