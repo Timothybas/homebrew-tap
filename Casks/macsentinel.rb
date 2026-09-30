@@ -20,6 +20,8 @@ cask "macsentinel" do
 
   app "MacSentinel.app"
 
+  uninstall quit: "com.appsinfoway.MacScope"
+
   zap trash: [
     "~/Library/Application Support/com.appsinfoway.MacScope",
     "~/Library/Application Support/MacSentinel",
